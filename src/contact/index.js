@@ -1,3 +1,5 @@
+import "./contact.css"
+
 export default function Contact() {
   const contactDiv = document.createElement("div");
 
@@ -12,6 +14,8 @@ export default function Contact() {
   contactEmail.textContent = "Email: info@koftahut.com";
   contactPhone.textContent = "Phone: (123) 456-7890";
 
+  contactDiv.id = "contact"
+  contactText.id = "contact-text"
   contactDiv.append(contactTitle, contactText, contactEmail, contactPhone);
 
   return contactDiv;
