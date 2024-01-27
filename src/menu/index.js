@@ -1,3 +1,5 @@
+import "./menu.css";
+
 const menuItems = [
   {
     name: "Chicken Kofta",
